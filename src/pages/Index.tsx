@@ -72,7 +72,7 @@ const Index = () => {
             Transforme Fio Felpudo em Renda
           </h2>
           <p className="font-body text-muted-foreground leading-relaxed text-base sm:text-lg">
-            Descubra como criar peças incríveis usando fio felpudo — desde flores realistas até animais adoráveis e chaveiros criativos. 
+          Descubra como criar peças incríveis usando fio felpudo. 
             Cada aula foi pensada para te guiar passo a passo, do zero até peças prontas para vender. 
             Aprenda uma arte que encanta, conquista clientes e transforma sua criatividade em uma fonte de renda real. 
             Bem-vinda ao Universo Felpudo! ✨
