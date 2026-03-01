@@ -3,6 +3,7 @@ import moduleFlores from "@/assets/module-flores.jpg";
 import moduleAnimais from "@/assets/module-animais.jpg";
 import moduleChaveiros from "@/assets/module-chaveiros.jpg";
 import ModuleCard from "@/components/ModuleCard";
+import LockedModuleCard from "@/components/LockedModuleCard";
 import BonusModule from "@/components/BonusModule";
 import { Sparkles, BookOpen, Award, Heart, PlayCircle } from "lucide-react";
 
@@ -41,7 +42,7 @@ const modules = [
   },
 ];
 
-const totalVideos = modules.reduce((acc, mod) => acc + mod.videos.length, 0);
+const totalVideos = modules.reduce((acc, mod) => acc + mod.videos.length, 0) + 32;
 
 const Index = () => {
   return (
@@ -102,7 +103,7 @@ const Index = () => {
       <section className="px-4 pb-10">
         <div className="mx-auto max-w-3xl grid grid-cols-3 gap-4">
           <div className="rounded-xl border border-border bg-card p-4 text-center">
-            <p className="font-display text-2xl font-bold text-primary">{modules.length + 1}</p>
+            <p className="font-display text-2xl font-bold text-primary">{modules.length + 2}</p>
             <p className="font-body text-xs sm:text-sm text-muted-foreground mt-1">Módulos</p>
           </div>
           <div className="rounded-xl border border-border bg-card p-4 text-center">
@@ -134,6 +135,12 @@ const Index = () => {
               moduleNumber={index + 1}
             />
           ))}
+          <LockedModuleCard
+            title="Peças Variadas"
+            videoCount={32}
+            moduleNumber={modules.length + 1}
+            releaseMessage="Libera em 3 dias"
+          />
           <BonusModule />
         </div>
       </section>
