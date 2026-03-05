@@ -58,6 +58,7 @@ const ModuleCard = ({ title, coverImage, videos, moduleNumber }: ModuleCardProps
             <VideoCard
               key={index}
               title={video.title}
+              description={video.description}
               videoUrl={video.url}
               index={index}
             />
