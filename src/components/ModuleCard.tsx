@@ -4,6 +4,7 @@ import VideoCard from "./VideoCard";
 
 interface Video {
   title: string;
+  description?: string;
   url: string;
 }
 
