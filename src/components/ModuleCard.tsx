@@ -4,6 +4,7 @@ import VideoCard from "./VideoCard";
 
 interface Video {
   title: string;
+  description?: string;
   url: string;
 }
 
@@ -49,7 +50,7 @@ const ModuleCard = ({ title, coverImage, videos, moduleNumber }: ModuleCardProps
       {/* Video List */}
       <div
         className={`transition-all duration-500 ease-in-out ${
-          isOpen ? "max-h-[2000px] opacity-100" : "max-h-0 opacity-0"
+          isOpen ? "max-h-[8000px] opacity-100" : "max-h-0 opacity-0"
         } overflow-hidden`}
       >
         <div className="p-4 sm:p-6 space-y-3">
@@ -57,6 +58,7 @@ const ModuleCard = ({ title, coverImage, videos, moduleNumber }: ModuleCardProps
             <VideoCard
               key={index}
               title={video.title}
+              description={video.description}
               videoUrl={video.url}
               index={index}
             />
