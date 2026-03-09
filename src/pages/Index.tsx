@@ -5,6 +5,7 @@ import moduleAnimais from "@/assets/module-animais.jpg";
 import moduleChaveiros from "@/assets/module-chaveiros.jpg";
 import ModuleCard from "@/components/ModuleCard";
 import BonusModule from "@/components/BonusModule";
+import SupplierModule from "@/components/SupplierModule";
 import { Sparkles, BookOpen, Award, Heart, PlayCircle, Clock } from "lucide-react";
 
 const modules = [
@@ -207,6 +208,7 @@ const Index = () => {
             />
           ))}
           <BonusModule />
+          <SupplierModule />
         </div>
       </section>
 
