@@ -208,6 +208,7 @@ const Index = () => {
             />
           ))}
           <BonusModule />
+          <SupplierModule />
         </div>
       </section>
 
