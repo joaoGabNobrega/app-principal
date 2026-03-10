@@ -100,6 +100,8 @@ const modules = [
       { title: "Dinossauro", description: "Dinossauro divertido e fofo feito com fio felpudo", url: "https://drive.google.com/file/d/1J5kGyZ114H8L05anMvs4eoZ1VzNth1Hm/view?usp=sharing" },
       { title: "Elefante", description: "Elefante adorável com orelhas grandes e tromba detalhada", url: "https://drive.google.com/file/d/1UAqH8MAyMvJjfv4iOPRquRkLrAIILGmA/view?usp=sharing" },
       { title: "Gatinho", description: "Gatinho fofíssimo perfeito para presente e decoração", url: "https://drive.google.com/file/d/1WQ2FamBWz0AZL3GQAkPNk2K7lQ7YqTXy/view?usp=sharing" },
+      { title: "Passarinho", description: "Passarinho encantador com asas e penas detalhadas em fio felpudo", url: "https://drive.google.com/file/d/1Dp7ye_-6R1MPFTlLc8mCAwdLLKlrK2ac/view?usp=sharing" },
+      { title: "Cachorrinho", description: "Cachorrinho fofo e carismático perfeito para presente e decoração", url: "https://drive.google.com/file/d/1TnmaT-YiLI0YEgy4SfAMyVMXPjmxJUaj/view?usp=sharing" },
     ],
   },
   {
