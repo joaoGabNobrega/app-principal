@@ -109,6 +109,8 @@ const modules = [
       { title: "Chaveiro Gato", description: "Chaveiro fofo de gatinho para vender ou presentear", url: "https://drive.google.com/file/d/1B7eGk3N6Pcf0BcjJLJZNpNydsy8eGIYE/view?usp=sharing" },
       { title: "Chaveiro de Frutas", description: "Chaveiros coloridos em formato de frutas variadas", url: "https://drive.google.com/file/d/1IYInGk1KOHpYo_QVb4UcONQaeOtw1ZNX/view?usp=sharing" },
       { title: "Chaveiro de Coração", description: "Chaveiro em formato de coração ideal para datas especiais", url: "https://drive.google.com/file/d/1qVJpyAMsW1306DOsLojVL3G33LTcDWZ1/view?usp=sharing" },
+      { title: "Chaveiro Abelhinha", description: "Chaveiro fofo de abelha perfeito para vender e presentear", url: "https://drive.google.com/file/d/1sD4QsuwZim8YfnDg5BZZ0Q2vNQYTlp9q/view?usp=sharing" },
+      { title: "Chaveiro Cereja", description: "Chaveiro delicado em formato de cereja com detalhes realistas", url: "https://drive.google.com/file/d/1LAWBIZO8cUyG3CBgwn6und0nokpuoAPA/view?usp=sharing" },
     ],
   },
 ];
