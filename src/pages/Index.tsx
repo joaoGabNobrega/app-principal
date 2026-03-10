@@ -94,6 +94,12 @@ const modules = [
       { title: "Tartaruga Estrela", description: "Crie uma tartaruga fofa com casco em formato de estrela", url: "https://drive.google.com/file/d/1yI4o4PR3_7XTcIjh6xK7ttv4qXpfnrxb/view?usp=sharing" },
       { title: "Calopsita", description: "Calopsita realista com penas detalhadas em fio felpudo", url: "https://drive.google.com/file/d/1AUUn5mzL53VZm7iC63GOCOJPuI08kEbj/view?usp=sharing" },
       { title: "Coelho", description: "Coelhinho adorável perfeito para decoração e presente", url: "https://drive.google.com/file/d/1J4C0rj86-qQl1Zxj-dHwrGGaa718fMkv/view?usp=sharing" },
+      { title: "Esquilo", description: "Esquilo encantador com rabo fofinho de fio felpudo", url: "https://drive.google.com/file/d/15e__pW5Psadaow8CqkDTkMp5YzZNDdP8/view?usp=sharing" },
+      { title: "Esquilo 2", description: "Segunda versão do esquilo com pose e detalhes diferentes", url: "https://drive.google.com/file/d/18oErNDzy-UPlOfFmSgohgQAgH4gfMi9W/view?usp=sharing" },
+      { title: "Borboleta", description: "Borboleta colorida com asas delicadas de fio felpudo", url: "https://drive.google.com/file/d/1DOXBRs0o8cVSez3JEDN016dD1DeRg6_N/view?usp=sharing" },
+      { title: "Dinossauro", description: "Dinossauro divertido e fofo feito com fio felpudo", url: "https://drive.google.com/file/d/1J5kGyZ114H8L05anMvs4eoZ1VzNth1Hm/view?usp=sharing" },
+      { title: "Elefante", description: "Elefante adorável com orelhas grandes e tromba detalhada", url: "https://drive.google.com/file/d/1UAqH8MAyMvJjfv4iOPRquRkLrAIILGmA/view?usp=sharing" },
+      { title: "Gatinho", description: "Gatinho fofíssimo perfeito para presente e decoração", url: "https://drive.google.com/file/d/1WQ2FamBWz0AZL3GQAkPNk2K7lQ7YqTXy/view?usp=sharing" },
     ],
   },
   {
@@ -103,6 +109,8 @@ const modules = [
       { title: "Chaveiro Gato", description: "Chaveiro fofo de gatinho para vender ou presentear", url: "https://drive.google.com/file/d/1B7eGk3N6Pcf0BcjJLJZNpNydsy8eGIYE/view?usp=sharing" },
       { title: "Chaveiro de Frutas", description: "Chaveiros coloridos em formato de frutas variadas", url: "https://drive.google.com/file/d/1IYInGk1KOHpYo_QVb4UcONQaeOtw1ZNX/view?usp=sharing" },
       { title: "Chaveiro de Coração", description: "Chaveiro em formato de coração ideal para datas especiais", url: "https://drive.google.com/file/d/1qVJpyAMsW1306DOsLojVL3G33LTcDWZ1/view?usp=sharing" },
+      { title: "Chaveiro Abelhinha", description: "Chaveiro fofo de abelha perfeito para vender e presentear", url: "https://drive.google.com/file/d/1sD4QsuwZim8YfnDg5BZZ0Q2vNQYTlp9q/view?usp=sharing" },
+      { title: "Chaveiro Cereja", description: "Chaveiro delicado em formato de cereja com detalhes realistas", url: "https://drive.google.com/file/d/1LAWBIZO8cUyG3CBgwn6und0nokpuoAPA/view?usp=sharing" },
     ],
   },
 ];
