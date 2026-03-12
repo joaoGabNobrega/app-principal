@@ -158,6 +158,47 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Redirect Banner */}
+      <section className="py-8 px-4">
+        <div className="mx-auto max-w-3xl">
+          <div className="relative overflow-hidden rounded-2xl border-2 border-secondary/30 bg-gradient-to-br from-secondary/10 via-primary/5 to-secondary/10 p-6 sm:p-10 text-center shadow-lg">
+            {/* Decorative elements */}
+            <div className="absolute top-4 left-6 text-3xl opacity-60 animate-pulse">🌸</div>
+            <div className="absolute top-6 right-8 text-2xl opacity-50 animate-pulse" style={{ animationDelay: "0.5s" }}>✨</div>
+            <div className="absolute bottom-4 left-10 text-2xl opacity-40 animate-pulse" style={{ animationDelay: "1s" }}>🧶</div>
+            <div className="absolute bottom-6 right-6 text-3xl opacity-50 animate-pulse" style={{ animationDelay: "0.7s" }}>💖</div>
+
+            <div className="relative z-10">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-secondary/20 px-3 py-1 text-xs font-body font-bold text-secondary mb-4">
+                <Sparkles className="h-3.5 w-3.5" />
+                NOVIDADE
+              </span>
+              <h2 className="font-display text-2xl sm:text-3xl font-bold text-foreground mb-3">
+                Temos uma nova área de membros! 🎉
+              </h2>
+              <p className="font-body text-muted-foreground leading-relaxed text-sm sm:text-base max-w-lg mx-auto mb-2">
+                Querida aluna, atualizamos a nossa plataforma com muito carinho para você! 
+                Agora você pode <strong className="text-foreground">criar sua conta</strong>, acompanhar seu progresso aula por aula e ter uma experiência ainda mais especial. 💛
+              </p>
+              <p className="font-body text-muted-foreground text-sm max-w-md mx-auto mb-6">
+                Todas as suas aulas, bônus e materiais continuam disponíveis — só que agora tudo ficou mais bonito e organizado!
+              </p>
+              <a
+                href="https://fntreinamentos.com/universofelpudo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full bg-primary px-8 py-4 text-base sm:text-lg font-body font-bold text-primary-foreground shadow-md hover:bg-primary/90 transition-all hover:scale-105 hover:shadow-lg"
+              >
+                Acessar a Nova Área de Membros →
+              </a>
+              <p className="font-body text-xs text-muted-foreground mt-4 opacity-70">
+                As aulas abaixo continuam funcionando normalmente 😊
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Welcome Message */}
       <section className="py-12 px-4">
         <div className="mx-auto max-w-3xl">
